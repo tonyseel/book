@@ -1,69 +1,75 @@
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+   <meta charset="utf-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <title>unbounce</title>
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
 <link href="css/responsive.css" rel="stylesheet" type="text/css" />
 <link href="css/intlTelInput.css" rel="stylesheet" type="text/css" />
-<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+<title>{% if page.title %}{{page.title}}{% else %}{{page.title}}{% endif %}</title>
+<link href="{{site.baseurl}}/css/style.css" rel="stylesheet" type="text/css">
+<link href="{{site.baseurl}}/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="{{site.baseurl}}/css/responsive.css" rel="stylesheet" type="text/css" />
+ <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+ <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/js/jquery-1.11.1.min.js"></script>
+ 
+ </head>
+ <body>
 
-</head>
-<body>
-<style>
-	h1, h2, h3, h4, h5, h6, p, span{font-family: 'Ubuntu', sans-serif;}
-	</style>
-<div class="container" style="background-color:#f5fbff">
-<div class="header-top">
-	<div class="inner-container">
+ <div class="container" style="background-color:#f5fbff">
+ <div class="header-top">
+ 	<div class="inner-container">
 	 <img src="image/logo.png"/>
-	</div>
-</div>
-<div class="intro-content">
-	<div class="inner-container">
-	   <div class="inner-header">
+	 <img src="{{site.baseurl}}/image/logo.png"/>
+ 	</div>
+ </div>
+ <div class="intro-content">
+ 	<div class="inner-container">
+ 	   <div class="inner-header">
 		   <h2>Your Primary headline</h2>
-		  
-		</div>
+		   <h2>{{site.heading}}</h2>
+ 		  
+ 		</div>
 		 <p>your secondary headline</p>
-	</div>
-</div>
+		 		 <p>{{site.sub-heading}}</p>
+ 	</div>
+ </div>
+ 
 
-{{content}}
-<div class="feedback">
-	
-		<div class="row">
-			<div class="col-md-6 left-content">
+ 	
+ 		<div class="row">
+ 			<div class="col-md-6 left-content">
 				<ul><li style="width:20%"><span><img src="image/oqvbrv-bookie-testimonial-profile-cold.png"/></span></li>
-				<li style="width:80%"><p> Authors Bio.This is the authors biography for the ebook. This biography will deliver detailed insights into the authors background and why they are a trusted subject matter expert on the given topic.
-					</p>
-					<h6>- Author Name</h6>
-					<span>Author Title, Company</span>
-					</li></ul>
-			</div>
-			<div class="col-md-6 left-content">
+				<ul><li style="width:20%"><span><img src="{{site.baseurl}}/image/oqvbrv-bookie-testimonial-profile-cold.png"/></span></li>
+ 				<li style="width:80%"><p> Authors Bio.This is the authors biography for the ebook. This biography will deliver detailed insights into the authors background and why they are a trusted subject matter expert on the given topic.
+ 					</p>
+ 					<h6>- Author Name</h6>
+ 					<span>Author Title, Company</span>
+ 					</li></ul>
+ 			</div>
+ 			<div class="col-md-6 left-content">
 				<ul><li style="width:20%"><span><img src="image/oqvbrv-bookie-testimonial-profile-cold.png"/></span></li>
-				<li style="width:80%"><p> Authors Bio.This is the authors biography for the ebook. This biography will deliver detailed insights into the authors background and why they are a trusted subject matter expert on the given topic.
-					</p>
-					<h6>- Author Name</h6>
-					<span>Author Title, Company</span>
-					</li></ul>
-			</div>
-		
-		</div>
-<div class="line"></div>
-	<h4>Copyright 2012 ThatGreatCompany</h4>
-
-</div>
-	
-	</div>
-
-
-</body>
-</html>
+				<ul><li style="width:20%"><span><img src="{{site.baseurl}}/image/oqvbrv-bookie-testimonial-profile-cold.png"/></span></li>
+ 				<li style="width:80%"><p> Authors Bio.This is the authors biography for the ebook. This biography will deliver detailed insights into the authors background and why they are a trusted subject matter expert on the given topic.
+ 					</p>
+ 					<h6>- Author Name</h6>
+ 					<span>Author Title, Company</span>
+ 					</li></ul>
+				 <div class="lastest">
+			   <h3>Lastest News</h3>
+			   <ul class="products">
+				 <li>  <a href="{{site.baseurl}}{{post.url}}">Credit Repair Strategies - 6 Key Strategies</a>
+             </li>
+				  <li>  <a href="{{site.baseurl}}{{post.url}}">Credit Repair Strategies - 6 Key Strategies</a>
+              </li> <li>  <a href="{{site.baseurl}}{{post.url}}">Credit Repair Strategies - 6 Key Strategies</a>
+              </li>
+ 
+			   </ul>
+			 </div>
+ 			</div>
+ 		
+ 		</div>
