@@ -53,14 +53,13 @@
 					<h6>- Author Name</h6>
 					<span>Author Title, Company</span>
 					</li></ul>
-					<div class="lastest">
+					 <div class="lastest">
 			   <h3>Lastest News</h3>
 			   <ul class="products">
-			    {% for post in site.posts %}
-				 <li><a href="{{site.baseurl}}{{post.url}}"></a>{{post.title}}</li>
-                {% endfor %}
-              
- 
+			   {% for post in site.post %}
+				 <li>  <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+			   {% endfor %}
+              </li>
 			   </ul>
 			 </div>
 			</div>
