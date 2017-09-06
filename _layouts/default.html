@@ -57,7 +57,7 @@
 			   <h3>Lastest News</h3>
 			   <ul class="products">
 			{% for post in site.post %}    
-         <li>  <a href="#">{{post.title}}</a>
+         <li>  <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
               </li>
 				{% endfor %}  
 			   </ul>
