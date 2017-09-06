@@ -56,10 +56,10 @@
 				 <div class="lastest">
 			   <h3>Lastest News</h3>
 			   <ul class="products">
-			    
-         <li>  <a href="#">Credit Repair Strategies - 6 Key Strategies</a>
+			{% for post in site.post %}    
+         <li>  <a href="#">{{post.title}}</a>
               </li>
-				  
+				{% endfor %}  
 			   </ul>
 			 </div>
  			</div>
