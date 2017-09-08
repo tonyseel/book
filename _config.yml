@@ -36,3 +36,6 @@ google-plus_username: u/0/109075708523313177474
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
+  
+include: ['_pages']
+
