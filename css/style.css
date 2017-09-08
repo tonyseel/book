@@ -80,11 +80,7 @@ a:hover, a:focus {
     color: #2a6999;
     font-weight: 700;
     margin-top: 20px;text-transform: capitalize;}
-.intro-content p{    text-align: center;
-    font-size: 21px;
-    color: #2a6999;
-    font-weight: 700;
-    margin-top: 20px;}
+
 .main-content{width:100%;display:inline-block;margin-top:20px}
 
 .grey-section{float: right;   display: block;
@@ -152,5 +148,5 @@ a:hover, a:focus {
 .lastest ul li{width:50%;display:inline-block}
 .menu{width:100%;display:inline-block;}
 .menu ul li{padding:10px;float:left}
-.menu ul li a{    color: #737475;
+.menu ul li a{color: #737475;
     font-size: 18px;font-family: 'Ubuntu', sans-serif;}
