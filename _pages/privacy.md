@@ -1,7 +1,7 @@
 ---
 title: privacy
 layout: page
-permalink: /about/
+permalink: /privacy/
 ---
 There are plenty of financial repair programs in the market to choose from. However, it requires a lot of research to sieve legit from the fraud ones and be able to come out with the best, legal and effective program for your financial crisis.
 
